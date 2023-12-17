@@ -1,0 +1,40 @@
+@use 'variables';
+
+article{
+    // display: flex;
+    // padding-top: 140px;
+    
+    .category{
+        // padding-left: 80px;
+        h5{
+            font-family: variables.$secondary-font;
+            color: variables.$secondary-text-line;
+    // padding-left: 0px;
+font-size: 56px;
+font-weight: 600;
+span {
+    color: variables.$third-text-line;
+  }
+        }
+        p{
+           color: variables.$fourth-text-line; 
+           padding-top: 130px;
+        }
+        .icons-sellings{
+            display: flex;
+            // width: 1300px;
+           padding-top: 50px;
+            justify-content: space-around;
+            .icon_sel{
+                p{
+                    color: variables.$fivth-text-line;
+                    text-align: center;
+                    font-family: variables.$primary-font;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+

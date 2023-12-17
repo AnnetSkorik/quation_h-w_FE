@@ -1,0 +1,47 @@
+@use "variables";
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: variables.$secondary-nav-color;
+  .logo {
+    color: variables.$secondary-text-line;
+    padding-left: 85px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    h5 {
+        font-family: variables.$secondary-font;
+        color: variables.$secondary-text-line;
+      span {
+        color: variables.$third-text-line;
+      }
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      font-size: 17px;
+      font-weight: 400;
+      font-family: variables.$primary-font;
+      gap: 85px;
+    }
+  }
+  .icons {
+    padding-right: 8%;
+    .icons-container {
+      display: flex;
+      width: 160px;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 30px;
+      p {
+        color: variables.$fourth-text-line;
+        font-family: variables.$primary-font;
+        font-size: 17px;
+        font-weight: 400;
+      }
+    }
+  }
+}

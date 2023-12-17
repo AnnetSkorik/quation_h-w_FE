@@ -1,0 +1,74 @@
+@use "variables";
+
+main {
+  display: flex;
+  height: 589px;
+  color: variables.$primery-main-color;
+  position: relative;
+  background-color: variables.$bg-fourth-color;
+  .blur {
+    width: 550px;
+    height: 597px;
+    left: 570px;
+    position: absolute;
+    background-color: #50806b33;
+    z-index: 52;
+    filter: blur();
+  }
+  img {
+    z-index: 10;
+  }
+  section1 {
+    h1 {
+      position: absolute;
+      width: 500px;
+      height: 188px;
+    
+      color: variables.$third-text-line;
+      text-align: center;
+      font-family: variables.$secondary-font;
+      font-size: 80px;
+      font-weight: 600;
+      z-index: 50;
+      left: 600px;
+      top: 150px;
+    }
+
+    p {
+      position: absolute;
+      width: 400px;
+      height: 90px;
+     
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: variables.$third-text-line;
+      text-align: center;
+      font-family: variables.$secondary-font;
+      font-size: 22px;
+      font-weight: 400;
+      z-index: 50;
+      left: 650px;
+      top: 350px;
+    }
+    button {
+      position: absolute;
+      width: 400px;
+      height: 90px;
+      left: 650px;
+      top: 430px;
+      display: inline-flex;
+      padding: 24px 56px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 20px;
+      background: variables.$bg-color;
+      z-index: 50;
+      font-family: variables.$primary-font;
+      font-size: 22px;
+      font-weight: 600;
+    }
+  }
+}

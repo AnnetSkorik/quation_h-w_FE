@@ -1,0 +1,21 @@
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Poppins', sans-serif;
+$down-font: 'Roboto', sans-serif;
+$primary-nav-color: #50806B;
+$secondary-nav-color: #FFF;
+$primary-text-line: #FFF;
+$secondary-text-line: #50806B;
+$third-text-line:#000;
+$fourth-text-line:#979797;
+$fivth-text-line: #343434;
+$primery-main-color: #E8EDDE;
+$secondary-content-color: #50806B33;
+$bg-color: #FFF;
+$bg-secondary-color: #060605;
+$bg-third-color: #50806B;
+$bg-fourth-color: #E8EDDE;
+
+@mixin main-text{
+   color: variables.$primary-color;
+        font-family: variables.$primary-font; 
+}
